@@ -1,0 +1,11 @@
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\obj\Debug\AFUtility01.csproj.AssemblyReference.cache
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\obj\Debug\AFUtility01.csproj.SuggestedBindingRedirects.cache
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\obj\Debug\AFUtility01.csproj.CoreCompileInputs.cache
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\bin\Debug\AFUtility01.exe.config
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\bin\Debug\AFUtility01.exe
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\bin\Debug\AFUtility01.pdb
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\bin\Debug\OSIsoft.AFSDK.dll
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\bin\Debug\OSIsoft.AFSDK.xml
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\obj\Debug\AFUtility01.csproj.CopyComplete
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\obj\Debug\AFUtility01.exe
+C:\Users\twijono\source\repos\AFUtility01\AFUtility01\obj\Debug\AFUtility01.pdb
