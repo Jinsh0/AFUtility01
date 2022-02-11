@@ -13,7 +13,7 @@ namespace AFUtility01
     {
         static void Main(string[] args)
         {
-            //use NetworkCredential class below if want to connect with the specified username and password
+            //use NetworkCredential class below if want to connect with the specified username and password, otherwise can leave it commented
             //NetworkCredential credential = new NetworkCredential(connectionInfo.user, connectionInfo.password);
             PISystems piSystems = new PISystems();
             var piSystem = (new PISystems())[connectionInfo.AFServerName];
