@@ -3,6 +3,7 @@ using OSIsoft.AF.Time;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,9 +13,10 @@ namespace AFUtility01
     {
         static void Main(string[] args)
         {
-
+            //use NetworkCredential class below if want to connect with the specified username and password
+            //NetworkCredential credential = new NetworkCredential(connectionInfo.user, connectionInfo.password);
             PISystems piSystems = new PISystems();
-            var piSystem = piSystems["Gary-VM2.dev.osisoft.int"];
+            var piSystem = (new PISystems())[connectionInfo.AFServerName];
             var analysisService = piSystem.AnalysisService;
 
             Console.WriteLine("Analysis Service Hostname: {0}", analysisService.Host);
@@ -26,6 +28,7 @@ namespace AFUtility01
             var results = analysisService.QueryRuntimeInformation(query, fields);
 
             //let's try to make a super dump version of getting first 5 analyses, because foreach still doesn't work
+            //although I'm not sure this top 5 is sorted based on what, probably by analysis ID, or maybe not sorted  at all
             Console.WriteLine($"First 5 Analyses with {query}");
             Console.WriteLine("");
 
