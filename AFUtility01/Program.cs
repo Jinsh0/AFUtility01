@@ -25,6 +25,9 @@ namespace AFUtility01
             string query = "lastLag :> 5000";
             string fields = "id name lastLag lastTriggerTime";
 
+            string query = "lastLag :> 5000";
+            string fields = "path name lastLag lastTriggerTime";
+
             var results = analysisService.QueryRuntimeInformation(query, fields);
 
             //let's try to make a super dump version of getting first 5 analyses, because foreach still doesn't work
